@@ -1,0 +1,24 @@
+.card{
+    height: 10rem;
+    cursor: pointer;
+    background-color: #F8F9FA;
+    margin-top: 10px;
+}
+.link{
+    display: inline;
+}
+.card .card-body .link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-body:hover, .card .card-body .link:hover{
+    color: #883cae;
+}
